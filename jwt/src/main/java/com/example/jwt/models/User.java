@@ -30,6 +30,7 @@ public class User {
     @Size(max=30)
     private String username;
 
+    
     @NotBlank
     @Size(max=50)
     @Email
